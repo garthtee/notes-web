@@ -4,7 +4,7 @@ This application is operates on a MEAN stack (MongoDB, Express, Angular 2 and No
 
 ## Running the application
 
-Run `npm run build` to build the project. Navigate to `http://localhost:3000/`.
+Run `npm run build` to build the project, then navigate to `http://localhost:3000/`.
 
 ## To come..
 
