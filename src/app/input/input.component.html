@@ -1,0 +1,25 @@
+<div class="input-group">
+    <input type="text" class="form-control" [(ngModel)]="noteInput" placeholder="Add a new note.." />
+    <span class="input-group-btn">
+      <button class="btn btn-success" type="button" (click)="onNoteInput()">Add</button>
+    </span>
+</div>
+<br>
+<div [hidden]="!showAlert" class="alert alert-danger">Please enter a note!</div>
+<br>
+<ul>
+    <li class="note" *ngFor="let note of notes">
+        <div class="jumbotron">
+            <h3>
+                {{ note.body }}
+                <hr>
+                <button class="btn btn-danger" (click)="deleteNote(note._id)">
+                    <i class="fa fa-trash"></i>
+                </button>
+                <button class="btn btn-success" (click)="editNote(note._id, note.body)">
+                    <i class="fa fa-pencil"></i>
+                </button>
+            </h3>
+        </div>
+    </li>
+</ul>
