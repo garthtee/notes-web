@@ -12,3 +12,5 @@ Run `npm run build` to build the project, then navigate to `http://localhost:300
 
 Run `npm run devServer` to start the server, then navigate to `http://localhost:3000/`.
 Run `npm run devWeb` to start the web application (Angular), then navigate to `http://localhost:4200/`.
+
+By developing this way, any saved changes will be added automatically and faster!
