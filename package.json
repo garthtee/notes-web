@@ -5,10 +5,12 @@
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
-        "build": "ng build && node server.js",
+        "build": "echo 'Uncomment code in server.js file before continuing.' && ng build && node server.js",
         "test": "ng test",
         "lint": "ng lint",
-        "e2e": "ng e2e"
+        "e2e": "ng e2e",
+        "devServer": "nodemon server.js",
+        "devWeb": "ng serve"
     },
     "private": true,
     "dependencies": {
