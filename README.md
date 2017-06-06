@@ -8,6 +8,7 @@ This application operates on a MEAN stack (MongoDB, Express, Angular 2 and NodeJ
 
 Run `npm run build` to build the project, then navigate to `http://localhost:3000/`.
 
-## To come..
+## To develop
 
-Check back here for a link to the live application.
+Run `npm run devServer` to start the server, then navigate to `http://localhost:3000/`.
+Run `npm run devWeb` to start the web application (Angular), then navigate to `http://localhost:4200/`.
