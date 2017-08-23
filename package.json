@@ -9,7 +9,7 @@
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e",
-        "devServer": "nodemon server.js",
+        "devServer": "nodemon server/server.js",
         "devWeb": "ng serve"
     },
     "private": true,
